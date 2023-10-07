@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B5025952AD18560000EFC62 /* PlacesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5025942AD18560000EFC62 /* PlacesVC.swift */; };
 		4BC24D262ACC30C7000332EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC24D252ACC30C7000332EA /* AppDelegate.swift */; };
 		4BC24D282ACC30C7000332EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC24D272ACC30C7000332EA /* SceneDelegate.swift */; };
-		4BC24D2A2ACC30C7000332EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC24D292ACC30C7000332EA /* ViewController.swift */; };
+		4BC24D2A2ACC30C7000332EA /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC24D292ACC30C7000332EA /* SignUpVC.swift */; };
 		4BC24D2D2ACC30C7000332EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BC24D2B2ACC30C7000332EA /* Main.storyboard */; };
 		4BC24D2F2ACC30C8000332EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BC24D2E2ACC30C8000332EA /* Assets.xcassets */; };
 		4BC24D322ACC30C8000332EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BC24D302ACC30C8000332EA /* LaunchScreen.storyboard */; };
@@ -19,10 +20,11 @@
 /* Begin PBXFileReference section */
 		166CEC555B379D0EB0DBC52C /* Pods-FoursquareClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoursquareClone.debug.xcconfig"; path = "Target Support Files/Pods-FoursquareClone/Pods-FoursquareClone.debug.xcconfig"; sourceTree = "<group>"; };
 		1B2AB1BED46E069D6E67C5F9 /* Pods_FoursquareClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoursquareClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5025942AD18560000EFC62 /* PlacesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesVC.swift; sourceTree = "<group>"; };
 		4BC24D222ACC30C7000332EA /* FoursquareClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoursquareClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BC24D252ACC30C7000332EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BC24D272ACC30C7000332EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4BC24D292ACC30C7000332EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4BC24D292ACC30C7000332EA /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		4BC24D2C2ACC30C7000332EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4BC24D2E2ACC30C8000332EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BC24D312ACC30C8000332EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -74,7 +76,8 @@
 			children = (
 				4BC24D252ACC30C7000332EA /* AppDelegate.swift */,
 				4BC24D272ACC30C7000332EA /* SceneDelegate.swift */,
-				4BC24D292ACC30C7000332EA /* ViewController.swift */,
+				4BC24D292ACC30C7000332EA /* SignUpVC.swift */,
+				4B5025942AD18560000EFC62 /* PlacesVC.swift */,
 				4BC24D2B2ACC30C7000332EA /* Main.storyboard */,
 				4BC24D2E2ACC30C8000332EA /* Assets.xcassets */,
 				4BC24D302ACC30C8000332EA /* LaunchScreen.storyboard */,
@@ -206,8 +209,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BC24D2A2ACC30C7000332EA /* ViewController.swift in Sources */,
+				4BC24D2A2ACC30C7000332EA /* SignUpVC.swift in Sources */,
 				4BC24D262ACC30C7000332EA /* AppDelegate.swift in Sources */,
+				4B5025952AD18560000EFC62 /* PlacesVC.swift in Sources */,
 				4BC24D282ACC30C7000332EA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
